@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ main.main.main--demo-2,  main.main.main--demo-3,  main.main.main--demo-4 {
+    position: absolute;
+    top: 0;
+	width:0;
+	right:0;
+	z-index:9999;
+}
+li{
+    list-style: none;
+}
+main.main.main--demo-3 {
+    position: absolute;
+    top: 0;
+}
+.global-menu li a {
+    text-decoration: none;
+    outline: 0;
+    color: #fff;
+    font-size: 24px;
+}
+.global-menu li a:hover{
+    color: #fff;
+}

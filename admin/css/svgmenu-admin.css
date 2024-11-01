@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+ form.formbox {
+    display: flex;
+    justify-content: space-around;
+}
+.bgdemo2{
+    background: url(../images/menu1.png);
+    width: 20%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bgdemo3{
+    background: url(../images/menu2.png);
+    width: 20%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bgdemo4{
+    background: url(../images/menu3.png);
+    width: 20%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btnsb {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+	z-index:999;
+}
+.formbox input[type=checkbox]{
+    border: none !important;
+}
+.formbox label{
+    margin: 0 auto;
+}
